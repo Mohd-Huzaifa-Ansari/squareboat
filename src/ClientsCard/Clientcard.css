@@ -1,0 +1,39 @@
+.clientcardwrap{
+    width: 300px;
+    height: 300px;
+
+    background: red;
+}
+
+.clientimgcard{
+   display: flex;
+   justify-content: space-evenly;
+
+   flex-wrap: wrap;
+   
+   width: 100%;
+
+   /* border: 1px solid green; */
+}
+
+.actualcards{
+    width: 200px;
+    height: 150px;
+   
+  /* border: 1px solid blue; */
+  border-radius: 5px;
+
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+
+    
+
+}
+
+.actualcards img{
+  max-width: 80%;
+}

@@ -1,0 +1,58 @@
+
+.service{
+    margin: 50px 0;
+    width: 100%;
+   
+   
+
+}
+.ourtext{
+    text-align: center;
+}
+
+.servicecard{
+    width: 75%;
+    height: auto;
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 40px auto;
+
+   
+}
+
+.servicecard .servicebox{
+    width: 290px;
+    height: 260px;
+    /* border: 1px solid red; */
+}
+
+.servicecard .servicebox .serviceimgbox{
+          text-align: center;
+  }
+.servicecard .servicebox .servicetxtbox{
+          text-align: center;
+  }
+.servicecard .servicebox .servicetxtbox h4{
+    cursor: pointer;
+          color: #0d264c;
+          font-size: 1.3rem;
+  font-weight: 600;
+  margin: 0;
+  color: #0d264c;
+  line-height: 1.2;
+  letter-spacing: .03rem;
+  }
+.servicecard .servicebox .servicetxtbox p{
+    font-size: .95rem;
+  font-weight: 400;
+  margin: 1rem 0 0;
+  opacity: .75;
+  letter-spacing: .03rem;
+  line-height: 1.5;
+  }
+.servicecard .servicebox .servicetxtbox h4:hover{
+          color: #2a6ed4;
+        
+  }
